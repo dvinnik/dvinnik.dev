@@ -1,9 +1,9 @@
 {
   "name": "gatsby-personal-website-starter",
   "private": true,
-  "description": "Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.",
+  "description": "Personal Website: Dmitry Vinnik",
   "version": "0.1.0",
-  "author": "Saimir Kapaj",
+  "author": "Dmitry Vinnik",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -59,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SaimirKapaj/gatsby-markdown-typescript-personal-website"
+    "url": "https://github.com/dmitryvinn/dvinnik.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dmitryvinn/dvinnik.com/issues"
   }
 }

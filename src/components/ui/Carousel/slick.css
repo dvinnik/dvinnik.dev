@@ -3,14 +3,13 @@
   padding-bottom: 2rem;
 }
 
-.slick-dots li button:before,
-.slick-dots li.slick-active button:before {
+.slick-dots li button:before, .slick-dots li.slick-active button:before {
   font-size: 12px !important;
   opacity: 0.5 !important;
 }
 
 .slick-dots li button:before {
-  color: #ed64a6 !important;
+  color: #5ab9ea !important;
 }
 
 .slick-dots li.slick-active button:before {

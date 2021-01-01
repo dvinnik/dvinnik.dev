@@ -1,6 +1,6 @@
 ---
 category: 'contact'
-title: 'Phone'
-icon: 'phone'
-content: '+122 334 888 323'
+title: 'Email'
+icon: 'envelope'
+content: 'dmitry@dvinnik.com'
 ---

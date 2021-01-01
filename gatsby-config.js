@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby.JS`,
-    description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-    author: `Saimir Kapaj`
+    title: `Dmitry Vinnik`,
+    description: `Dmitry is an Open Source Developer Advocate at Facebook, where he focuses on projects in the mobile space. His goal is to help developers be more productive through open source.`,
+    author: `Dmitry Vinnik`
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -43,8 +43,8 @@ module.exports = {
         name: `gatsby-personal-website-starter`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#ed64a6`,
-        theme_color: `#ed64a6`,
+        background_color: `#5ab9ea`,
+        theme_color: `#5ab9ea`,
         display: `minimal-ui`,
         icon: `src/assets/images/gatsby-icon.png`
       }

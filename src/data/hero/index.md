@@ -1,8 +1,13 @@
 ---
 category: 'hero section'
-title: 'Frontend Developer'
-subtitle: 'I am the Great Gatsby'
-content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+title: 'Developer Advocate'
+subtitle: 'Dmitry Vinnik'
+content: 'Dmitry is an Open Source Developer Advocate at Facebook, where he focuses on projects in the mobile space. His goal is to help developers be more productive through open source.
+
+Dmitry continues being a developer-first, so he applies the same mindset and passion when working on open source projects, creating new educational content, or giving conference talks. 
+
+Dmitry has a background in medicine and bioinformatics, but these days he is more interested in understanding developer wellness and work-life balance. 
+'
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---
