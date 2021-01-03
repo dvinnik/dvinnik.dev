@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-66a71bb23704c9d793df.js"
+    "url": "webpack-runtime-d4708651d078c5647885.js"
   },
   {
     "url": "framework-acd7498685eeb36e39da.js"
   },
   {
-    "url": "app-9b5994965027d712b8f7.js"
+    "url": "app-69d022cc1ef0416ee5a3.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9876924d2c33e13dc3fb5cdf254314bd"
+    "revision": "12400eaf2e3dcf35e2649150e8b587da"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-fd4fb51a6fac1c18bdde.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "612d093a9cb88649f5060cb03d7ba979"
+    "revision": "60fdda30f6f3877d8877dc711f34ffff"
   },
   {
     "url": "polyfill-b1e8269bf7d82e5fa523.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "27cbdda52eb8d155251f4852aff064f2"
+    "revision": "bd2687c8647e699155c69856760d7962"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/dvinnik.com`), ``)
+  pathname = pathname.replace(new RegExp(`^/dvinnik.dev`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/dvinnik.com/app-9b5994965027d712b8f7.js`))) {
+  if (!resources || !(await caches.match(`/dvinnik.dev/app-69d022cc1ef0416ee5a3.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/dvinnik.com/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/dvinnik.dev/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
